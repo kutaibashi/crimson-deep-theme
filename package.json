@@ -4,11 +4,26 @@
     "description": "A dark theme with a crimson and deep blue contrast.",
     "version": "1.0.0",
     "publisher": "Mhd-Kutaiba-Shikhani",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kutaibashi/crimson-deep-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kutaibashi/crimson-deep-theme/issues"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark theme",
+        "crimson",
+        "deep blue",
+        "color theme"
     ],
     "contributes": {
         "themes": [
@@ -18,5 +33,6 @@
                 "path": "./themes/crimson-deep-color-theme.json"
             }
         ]
-    }
+    },
+    "license": "MIT"
 }
