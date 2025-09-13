@@ -1,0 +1,22 @@
+{
+    "name": "crimson-deep-theme",
+    "displayName": "Crimson Deep",
+    "description": "A dark theme with a crimson and deep blue contrast.",
+    "version": "1.0.0",
+    "publisher": "Mhd-Kutaiba-Shikhani",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Crimson Deep",
+                "uiTheme": "vs-dark",
+                "path": "./themes/crimson-deep-color-theme.json"
+            }
+        ]
+    }
+}
